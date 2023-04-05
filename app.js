@@ -19,6 +19,7 @@ class Calculator {
         this.currentOperandText += number
     }
     chooseOperation(operation){
+        if(this.currentOperandText === '')return;
         this.operation = operation;
         this.previousOperandText = this.currentOperandText
         this.previousOperandText += ` ${operation}`
@@ -62,8 +63,6 @@ class Calculator {
 }
 
 
-
-
 var inputScreen = document.getElementById('screenContent');
 const numButtons = document.querySelectorAll('[data-numbuttons]');
 const operationButtons = document.querySelectorAll('[data-operation]')
@@ -88,7 +87,6 @@ operationButtons.forEach(button => button.addEventListener('click', () => {
     calculator.chooseOperation(button.textContent)
     calculator.updateDisplay()
 }))
-
 
 deleteButton.addEventListener('click' , () => {
     calculator.delete()
