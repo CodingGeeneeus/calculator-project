@@ -110,11 +110,11 @@ button:hover {
 
 .previous-operand{
     font-family: digital-em;
-    padding-bottom: 1S0px;
+    padding-bottom: 5px;
 }
 
 .current-operand{
-    padding-bottom: 5px;
+    padding-bottom: 13px;
 }
 
 
