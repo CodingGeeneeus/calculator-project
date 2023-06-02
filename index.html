@@ -1,51 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
     <script src="./app.js" defer></script>
-    <script src="./Calculator.js" ></script>
-</head>
-<body>
-    
+    <script src="./Calculator.js"></script>
+  </head>
+  <body>
     <div id="mainCalc">
-        <div class="title">Calculator</div>
-        <div class="screenContainer" id="octagon" >  
-            <div id="screenContent">
-                <div data-previous-operand class="previous-operand"></div> 
-                <div data-current-operand class="current-operand"></div>
-            </div>
+      <div class="title">Calculator</div>
+      <div class="screenContainer" id="octagon">
+        <div id="screenContent">
+          <div data-previous-operand class="previous-operand"></div>
+          <div data-current-operand class="current-operand"></div>
         </div>
-        <div id="calcButtonsContainer">
-            <button data-numbuttons>1</button>
-            <button data-numbuttons>2</button>
-            <button data-numbuttons>3</button>
-            <button data-clear class="clear">AC</button>
-            <button data-numbuttons>4</button>
-            <button data-numbuttons>5</button>
-            <button data-numbuttons>6</button>
-            <button data-delete class="clear">DEL</button>
-            <button data-numbuttons>7</button>
-            <button data-numbuttons>8</button>
-            <button data-numbuttons>9</button>
-            <button data-operation="">-</button>
-            <button data-numbuttons>0</button>
-            <button data-numbuttons>.</button>
-            <button data-operation>*</button>
-            <button data-operation>+</button>
-            <div></div>
-            <button data-equals class="equals">=</button>
-            <button data-operation="">/</button>
-            <div></div>
-        </div>
-        
-
+      </div>
+      <div id="calcButtonsContainer">
+        <button data-numbuttons>1</button>
+        <button data-numbuttons>2</button>
+        <button data-numbuttons>3</button>
+        <button data-clear class="clear">AC</button>
+        <button data-numbuttons>4</button>
+        <button data-numbuttons>5</button>
+        <button data-numbuttons>6</button>
+        <button data-delete class="clear">DEL</button>
+        <button data-numbuttons>7</button>
+        <button data-numbuttons>8</button>
+        <button data-numbuttons>9</button>
+        <button data-operation="">-</button>
+        <button data-numbuttons>0</button>
+        <button data-numbuttons>.</button>
+        <button data-operation>*</button>
+        <button data-operation>+</button>
+        <br>
+        <button data-equals class="equals">=</button>
+        <button data-operation="">/</button>
+        <div></div>
+      </div>
     </div>
-
-    
-
-</body>
+  </body>
 </html>
